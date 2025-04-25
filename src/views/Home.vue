@@ -82,7 +82,7 @@
   <div class="divider" id="about-reiki"></div>
 
   <div class="container">
-    <div class="row ">
+    <div class="row justify-content-between">
       <div class="col-12 col-md-8">
         <div class="text-primary title ">What Is Reiki?</div>
         <div class="fs-5">
@@ -124,9 +124,9 @@
 
     <div class="divider"></div>
 
-    <div class="row mt-5">
-      <div class="col-12 col-md-4   ">
-        <img src="/public/img/reiki.jpg" style="width:90%">
+    <div class="row mt-5 justify-content-between">
+      <div class="col-12 col-md-3   ">
+        <img src="/public/img/reiki.jpg" style="width:100%">
       </div>
       <div class="col-12 col-md-8">
         <div class="text-primary title ">What happens during a treatment?</div>
@@ -161,10 +161,10 @@
 
   <div class="section-bg-colour">
     <div class="container py-5">
-      <div class="row">
-        <div class="col-12 col-md-7 py-5">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-6 py-5">
           <div class="text-primary title ">My Stance</div>
-          <div class="fs-5 pe-md-5">
+          <div class="fs-5 ">
             <p>
               It’s always ok to put your own restoration first.
             </p>
