@@ -1,5 +1,7 @@
 <script setup>
 
+
+
 </script>
 
 <template>
@@ -28,22 +30,25 @@
         <img class="paul-approach-img" src="/public/img/paul-approach.jpg">
       </div>
       <div class="col-12 col-md-6 ms-md-5">
-        <div class="text-primary title ">My Approach</div>
+        <div class="text-primary title ">Hi I'm Paul</div>
         <div class="approach-text text-secondary">I use the magic of Reiki to attune your own energy, bringing
           restoration
           and balance
           into
           your life. </div>
-        <div class="btn btn-primary btn-lg px-5 py-3 mt-5">Approach</div>
-        <div class="btn btn-outline-secondary btn-lg px-5 py-3 mt-5 ms-3">About Reiki</div>
+        <div class="btn btn-primary btn-lg px-5 py-3 mt-5">About Me</div>
+        <a href="#about-reiki" class="btn btn-outline-secondary btn-lg px-5 py-3 mt-5 ms-3">About Reiki</a>
       </div>
     </div>
   </div>
 
-  <div class="divider"></div>
+  <div class=" divider"></div>
 
   <div class="section-bg-colour">
     <div class="container py-5">
+      <div class="row text-center">
+        <div class="text-primary title ">What I Offer You</div>
+      </div>
       <div class="row ">
         <div class="col-12 col-md-4 text-center py-5">
           <i class="bi bi-gem text-primary" style="font-size: 4em;"></i>
@@ -59,18 +64,129 @@
         </div>
       </div>
       <div class="row d-flex justify-content-center mt-3">
-        <div class="col-6 text-center">
-          <div class="fs-5">I believe that at our core we are energy - a pure life force that shapes our entire world.
-            My offering is
-            to assist you while the magic of Reiki attunes your own energy back into balance.</div>
+        <div class="col-12 col-md-6 text-center">
+          <div class="fs-5">I believe that at our core we are energy - a pure life force that shapes our entire
+            world.
+            I offer Reiki treatments to attune your own energy back into balance.</div>
         </div>
 
       </div>
-      <div class="row mt-5">
+      <div class="row my-5">
         <div class="col text-center">
-          <div class="btn btn-primary btn-lg px-5 py-3">Prices</div>
+          <div class="btn btn-primary btn-lg px-5 py-3">Book A Reiki Session</div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="divider" id="about-reiki"></div>
+
+  <div class="container">
+    <div class="row ">
+      <div class="col-12 col-md-8">
+        <div class="text-primary title ">What Is Reiki?</div>
+        <div class="fs-5">
+          <p>
+            Reiki is a Japanese technique for <strong>stress reduction and relaxation</strong> that also
+            promotes
+            <strong>healing</strong>. It is based on
+            the idea that an unseen <strong>life force energy</strong> flows through us and is what causes us to
+            be
+            alive. If our life
+            force energy is low then we are more likely to get sick or feel stressed. And if it is high, we are
+            more
+            capable of being <strong>happy and healthy</strong>.
+          </p>
+          <p>
+            Reiki is a simple, natural and safe method of <strong>spiritual healing</strong> that anyone can use.
+            It has
+            been effective
+            in helping virtually every known illness and malady and always creates a <strong>beneficial
+              effect</strong>.
+            It also works in
+            conjunction with all other medical or therapeutic techniques to relieve side effects and
+            <strong>promote
+              recovery</strong>.
+          </p>
+          <p>
+            While Reiki is spiritual in nature, it is <strong>not a religion</strong>. It has no dogma, and there
+            is
+            <strong>nothing you must believe</strong> in order to benefit from the <strong>healing</strong> that
+            Reiki
+            provides.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 text-end d-none d-md-block">
+        <img src="/public/img/reiki.png">
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row mt-5">
+      <div class="col-12 col-md-4   ">
+        <img src="/public/img/reiki.jpg" style="width:90%">
+      </div>
+      <div class="col-12 col-md-8">
+        <div class="text-primary title ">What happens during a treatment?</div>
+        <div class="fs-5">
+          <p>
+            During a Reiki treatment you lie on a massage table, fully dressed, while I <strong>place my
+              palms</strong>
+            on or just above
+            different areas of your body relating to your different <strong>energy zones</strong>. The specific
+            placement of my palms
+            will never be intrusive or inappropriate, nor will there be any uncomfortable pressure.
+          </p>
+          <p>
+            The experience of Reiki is subjective, changeable, sometimes subtle, and sometimes more active. People
+            often
+            experience <strong>heat in my hands</strong>. Other common experiences are subtle pulsations or
+            cascading
+            waves of energy <strong>throughout the body</strong>. This often accompanies an <strong>emotional
+              release</strong>.
+          </p>
+          <p>
+            Reiki is <strong>cumulative</strong> and its benefits build up over time. Everyone is supported to
+            work at
+            their own pace - there is no one size fits all approach to <strong>your healing</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section-bg-colour">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md-7 py-5">
+          <div class="text-primary title ">My Stance</div>
+          <div class="fs-5 pe-md-5">
+            <p>
+              It’s always ok to put your own restoration first.
+            </p>
+            <p>
+              It’s always ok to say no to others, and yes to yourself.
+            </p>
+            <p>
+              It’s always ok to let others solve their own problems, even when they blame you for not helping.
+            </p>
+
+            <p>
+              Everyone deserves the space to heal what they need, so they can live the life they want to.
+            </p>
+            <div class="btn btn-primary btn-lg px-5 py-3 mt-4">More About Me</div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 py-5">
+          <img src="/public/img/paul-approach-2.jpg" style="width:100%">
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
