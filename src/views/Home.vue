@@ -1,5 +1,5 @@
 <script setup>
-
+import { RouterLink } from "vue-router";
 
 
 </script>
@@ -15,8 +15,6 @@
           <div class="text-white mb-5" style="font-size: 2rem;">Energy Healing in Tunbridge <br>Wells, Kent</div>
 
           <div class="btn btn-info btn-lg mt-5 px-5 text-white fs-3 " style="border-width: 5px;">Book</div>
-          <div class="btn btn-outline-info btn-lg mt-5 px-5 text-white fs-3 ms-3 " style="border-width: 5px;">
-            About</div>
         </div>
       </div>
     </div>
@@ -36,7 +34,7 @@
           and balance
           into
           your life. </div>
-        <div class="btn btn-primary btn-lg px-5 py-3 mt-5">About Me</div>
+        <RouterLink to="/about" class="btn btn-primary btn-lg px-5 py-3 mt-5">About Me</RouterLink>
         <a href="#about-reiki" class="btn btn-outline-secondary btn-lg px-5 py-3 mt-5 ms-3">About Reiki</a>
       </div>
     </div>
@@ -163,7 +161,7 @@
     <div class="container py-5">
       <div class="row justify-content-between">
         <div class="col-12 col-md-6 py-5">
-          <div class="text-primary title ">My Stance</div>
+          <div class="text-primary title ">My Approach</div>
           <div class="fs-5 ">
             <p>
               It’s always ok to put your own restoration first.
@@ -178,7 +176,7 @@
             <p>
               Everyone deserves the space to heal what they need, so they can live the life they want to.
             </p>
-            <div class="btn btn-primary btn-lg px-5 py-3 mt-4">More About Me</div>
+            <div class="btn btn-primary btn-lg px-5 py-3 mt-4">My Approach</div>
           </div>
         </div>
 

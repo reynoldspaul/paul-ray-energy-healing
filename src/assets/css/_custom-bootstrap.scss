@@ -17,6 +17,12 @@ $btn-border-radius: 0;
 $btn-border-radius-sm: 0;
 $btn-border-radius-lg: 0; 
 
+
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
+
+
+html {
+    scroll-behavior: auto!important;
+  }
