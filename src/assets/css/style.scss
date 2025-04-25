@@ -1,0 +1,41 @@
+@use 'custom-bootstrap' as *;
+
+.divider{
+    height:120px;
+}
+
+.nav-logo{
+    width:160px;
+    margin-top: -15px;
+}
+
+.paul-header{
+    background-position: 70% 0%; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    height: 600px;
+}
+
+.paul-approach-img{
+    width:100%;
+}
+
+.approach-text{
+
+    font-size: 1.5em;
+}
+
+.title{
+    font-size:1.9em;
+    margin-bottom:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer{
+    margin-top:80px;
+}
+
+.section-bg-colour{
+    background-color: #fae8db;
+}

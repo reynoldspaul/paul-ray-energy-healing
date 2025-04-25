@@ -1,0 +1,22 @@
+$theme-colors: (
+  "primary": #1A365D,
+  "secondary": #6c757d,
+  "success": #28a745,
+  "info": #17a2b8,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "dark": #343a40
+);
+
+$body-color: #6c757d; // global default text color
+$body-bg: #fff;
+$font-family-base: 'Raleway', sans-serif;
+
+$btn-border-radius: 0;
+$btn-border-radius-sm: 0;
+$btn-border-radius-lg: 0; 
+
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
