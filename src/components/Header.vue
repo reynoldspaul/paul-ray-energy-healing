@@ -12,11 +12,11 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav ">
-                            <a class="nav-link active" href="#">Home</a>
-                            <a class="nav-link" href="#">Approach</a>
-                            <a class="nav-link" href="#">Book</a>
-                            <a class="nav-link" href="#">About</a>
-                            <a class="nav-link" href="#">Contact</a>
+                            <RouterLink to="/" activeClass="active" class="nav-link">Home</RouterLink>
+                            <RouterLink to="/approach" activeClass="active" class="nav-link">Approach</RouterLink>
+                            <a class="nav-link">Book</a>
+                            <RouterLink to="/about" activeClass="active" class="nav-link">About</RouterLink>
+                            <a class="nav-link">Contact</a>
                         </div>
                     </div>
                 </div>

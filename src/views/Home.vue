@@ -164,19 +164,24 @@ import { RouterLink } from "vue-router";
           <div class="text-primary title ">My Approach</div>
           <div class="fs-5 ">
             <p>
-              It’s always ok to put your own restoration first.
+              <i class="bi bi-arrow-right-short"></i> It’s always ok to put your own <strong>restoration first</strong>.
             </p>
             <p>
-              It’s always ok to say no to others, and yes to yourself.
+              <i class="bi bi-arrow-right-short"></i> It’s always ok to say <strong>no to others</strong>, and
+              <strong>yes to yourself</strong>.
             </p>
             <p>
-              It’s always ok to let others solve their own problems, even when they blame you for not helping.
+              <i class="bi bi-arrow-right-short"></i> It’s always ok to <strong>let others solve</strong> their own
+              problems, even when they blame you for not
+              helping.
             </p>
 
             <p>
-              Everyone deserves the space to heal what they need, so they can live the life they want to.
+              <i class="bi bi-arrow-right-short"></i> Everyone deserves the <strong>space to heal</strong> what they
+              need, so they can live the <strong>life
+                they want</strong> to.
             </p>
-            <div class="btn btn-primary btn-lg px-5 py-3 mt-4">Read More</div>
+            <RouterLink to="/approach" class="btn btn-primary btn-lg px-5 py-3 mt-4">Read More</RouterLink>
           </div>
         </div>
 
