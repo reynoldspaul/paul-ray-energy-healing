@@ -29,7 +29,7 @@ import { RouterLink } from "vue-router";
       </div>
       <div class="col-12 col-md-6 ms-md-5">
         <div class="text-primary title ">Hi I'm Paul</div>
-        <div class="approach-text text-secondary">I use the magic of Reiki to attune your own energy, bringing
+        <div class="approach-text text-secondary">I use the power of Reiki to attune your own energy, bringing
           restoration
           and balance
           into
@@ -65,7 +65,7 @@ import { RouterLink } from "vue-router";
         <div class="col-12 col-md-6 text-center">
           <div class="fs-5">I believe that at our core we are energy - a pure life force that shapes our entire
             world.
-            I offer Reiki treatments to attune your own energy back into balance.</div>
+            I offer Reiki treatments to restore your own energy back into balance.</div>
         </div>
 
       </div>
@@ -176,7 +176,7 @@ import { RouterLink } from "vue-router";
             <p>
               Everyone deserves the space to heal what they need, so they can live the life they want to.
             </p>
-            <div class="btn btn-primary btn-lg px-5 py-3 mt-4">My Approach</div>
+            <div class="btn btn-primary btn-lg px-5 py-3 mt-4">Read More</div>
           </div>
         </div>
 

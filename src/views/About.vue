@@ -23,11 +23,15 @@
                 <div class="text-primary title ">Hey I'm Paul</div>
                 <div class="fs-5">
                     <p>
-                        Deeply rooted in nature. The seeds of my spiritual journey were planted at university when I
-                        used meditation as a way to calm my mind whilst I took my final exams. But actually the real
-                        work began when I hit a rock bottom in my early thirties which led me into the rooms of 12 step
-                        recovery. I know now that suffering has been my soul's greatest teacher, and that there is
-                        spiritual gold hidden within all of the greatest life's challenges.
+                        Deeply rooted in nature. Father of two girls. The seeds of my spiritual journey were planted at
+                        university where I
+                        discovered meditation. But the real
+                        work began when I hit a rock bottom that led me to 12 step
+                        recovery.
+                    </p>
+                    <p>
+                        I know now that suffering has been my soul's greatest teacher, and that there is
+                        spiritual gold hidden within all of life's greatest challenges.
                     </p>
                     <p>
                         I have come to learn that we all have the freewill to choose our own perspective on our lives
@@ -51,20 +55,22 @@
                     <img src="/public/img/energy.jpg" style="width:100%">
                 </div>
                 <div class="col-12 col-md-6">
-                    <div class="text-primary title ">Energy Healer</div>
+                    <div class="text-primary title ">Energy Healing</div>
                     <div class="fs-5">
                         <p>
                             I offer the same that has been given to me by my teachers within the spiritual traditions of
                             Buddhism and Shamanism, and also through the healing powers of Reiki. Over the past 15 years
                             I have attended yearly silent meditation retreats, sitting with my own suffering and
-                            cravings, turning inwards to face my own shadow with a heart of compassion and light. More
+                            cravings, turning inwards to face my own shadow with a heart of compassion and light.
+                        </p>
+                        <p> More
                             recently I have had the honour of experiencing a Kundalini awakening, leaving me without
                             doubt of the power of energy healing and using this universal resource as a way out of
                             despair.
                         </p>
                         <p>
                             It is when we come together to heal with energy that magic does happen. I have seen first
-                            hand how Reik gets right to the root of emotional trauma, something that otherwise can take
+                            hand how Reiki gets right to the root of emotional trauma, something that otherwise can take
                             years in talking therapy. Reiki needs no words, only connection to source.
                         </p>
                     </div>
