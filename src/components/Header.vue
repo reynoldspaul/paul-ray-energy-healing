@@ -16,7 +16,7 @@
                             <RouterLink to="/approach" activeClass="active" class="nav-link">Approach</RouterLink>
                             <a class="nav-link">Book</a>
                             <RouterLink to="/about" activeClass="active" class="nav-link">About</RouterLink>
-                            <a class="nav-link">Contact</a>
+                            <RouterLink to="/contact" activeClass="active" class="nav-link">Contact</RouterLink>
                         </div>
                     </div>
                 </div>

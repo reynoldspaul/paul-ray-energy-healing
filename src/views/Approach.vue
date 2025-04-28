@@ -14,14 +14,14 @@
         </div>
     </div>
 
-    <div class="divider"></div>
+    <div class="divider-sm"></div>
 
     <div class="section-bg-colour">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="row ">
                     <div class="col-12 col-md-4 text-center py-5">
-                        <i class="bi bi-gem text-primary" style="font-size: 4em;"></i>
+                        <i class="bi bi-heart text-primary" style="font-size: 4em;"></i>
                         <div class="text-uppercase fs-3">Space to feel</div>
                     </div>
                     <div class="col-12 col-md-4 text-center py-5">
