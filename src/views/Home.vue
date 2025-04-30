@@ -14,7 +14,8 @@ import { RouterLink } from "vue-router";
           <h1 class="text-white mb-0" style="font-size: 6rem;">Reiki</h1>
           <div class="text-white mb-5" style="font-size: 2rem;">Energy Healing in Tunbridge <br>Wells, Kent</div>
 
-          <div class="btn btn-info btn-lg mt-5 px-5 text-white fs-3 " style="border-width: 5px;">Book</div>
+          <a href="https://paulray.setmore.com/book" class="btn btn-info btn-lg mt-5 px-5 text-white fs-3 "
+            style="border-width: 5px;">Book</a>
         </div>
       </div>
     </div>
@@ -71,7 +72,7 @@ import { RouterLink } from "vue-router";
       </div>
       <div class="row my-5">
         <div class="col text-center">
-          <div class="btn btn-primary btn-lg px-5 py-3">Book A Reiki Session</div>
+          <a href="https://paulray.setmore.com/book" class="btn btn-primary btn-lg px-5 py-3">Book A Reiki Session</a>
         </div>
       </div>
     </div>

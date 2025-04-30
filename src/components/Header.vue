@@ -14,7 +14,7 @@
                         <div class="navbar-nav ">
                             <RouterLink to="/" activeClass="active" class="nav-link">Home</RouterLink>
                             <RouterLink to="/approach" activeClass="active" class="nav-link">Approach</RouterLink>
-                            <a class="nav-link">Book</a>
+                            <a href="https://paulray.setmore.com/book" class="nav-link">Book</a>
                             <RouterLink to="/about" activeClass="active" class="nav-link">About</RouterLink>
                             <RouterLink to="/contact" activeClass="active" class="nav-link">Contact</RouterLink>
                         </div>

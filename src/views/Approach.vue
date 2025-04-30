@@ -102,7 +102,8 @@
 
         <div class="row my-5">
             <div class="col text-center">
-                <div class="btn btn-primary btn-lg px-5 py-3">Book A Reiki Session</div>
+                <a href="https://paulray.setmore.com/book" class="btn btn-primary btn-lg px-5 py-3">Book A Reiki
+                    Session</a>
             </div>
         </div>
     </div>

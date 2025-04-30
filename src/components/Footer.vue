@@ -5,15 +5,29 @@
                 <div class="col-3"></div>
                 <div class=" col-6">
                     <ul class="nav justify-content-center pb-1">
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                        <li class="nav-item">
+                            <RouterLink to="/" activeClass="active" class="nav-link px-2 text-body-secondary">Home
+                            </RouterLink>
+                        </li>
+                        <li class="nav-item">
+                            <RouterLink to="/approach" activeClass="active" class="nav-link px-2 text-body-secondary">
+                                Approach</RouterLink>
+                        </li>
+                        <li class="nav-item"><a href="https://paulray.setmore.com/book"
+                                class="nav-link px-2 text-body-secondary">Book</a></li>
+                        <li class="nav-item">
+                            <RouterLink to="/about" activeClass="active" class="nav-link px-2 text-body-secondary">About
+                            </RouterLink>
+                        </li>
+                        <li class="nav-item">
+                            <RouterLink to="/contact" activeClass="active" class="nav-link px-2 text-body-secondary">
+                                Contact</RouterLink>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-3 d-flex justify-content-end">
-                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/paulrayenergyhealing/" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
                 </div>
             </div>
 

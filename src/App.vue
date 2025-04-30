@@ -1,7 +1,9 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
+import BookingModal from "./components/BookingModal.vue";
+
 </script>
 
 <style lang="scss">
@@ -9,10 +11,11 @@ import Footer from "./components/Footer.vue";
 </style>
 
 <template>
-
   <Header />
 
   <RouterView />
+
+  <BookingModal />
 
   <Footer />
 </template>
