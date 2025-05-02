@@ -25,18 +25,19 @@ import { RouterLink } from "vue-router";
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-5">
+      <div class="col-12 col-md-5 order-2 mt-4 mt-md-0">
         <img class="paul-approach-img" src="/public/img/paul-approach.jpg">
       </div>
-      <div class="col-12 col-md-6 ms-md-5">
+      <div class="col-12 col-md-6 ms-md-5 order-first order-md-1">
         <div class="text-primary title ">Hi I'm Paul</div>
         <div class="approach-text text-secondary">I use the power of Reiki to attune your own energy, bringing
           restoration
           and balance
           into
           your life. </div>
-        <RouterLink to="/about" class="btn btn-primary btn-lg px-5 py-3 mt-5">About Me</RouterLink>
-        <a href="#about-reiki" class="btn btn-outline-secondary btn-lg px-5 py-3 mt-5 ms-3">About Reiki</a>
+        <RouterLink to="/about" class="btn btn-primary btn-lg px-5 py-3 mt-5 w-sm-100">About Me</RouterLink>
+        <a href="#about-reiki" class="btn btn-outline-secondary btn-lg px-5 py-3 mt-2 mt-sm-5 ms-sm-3 w-sm-100">About
+          Reiki</a>
       </div>
     </div>
   </div>

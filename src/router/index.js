@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { Collapse } from 'bootstrap'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,15 @@ const router = createRouter({
     //   component: () => import('../views/Book.vue'),
     // },
   ],
+})
+
+router.afterEach(() => {
+  // Close Bootstrap mobile nav
+  const navbar = document.getElementById('navbarNavAltMarkup')
+  if (navbar && navbar.classList.contains('show')) {
+    const bsCollapse = Collapse.getInstance(navbar) || new Collapse(navbar)
+    bsCollapse.hide()
+  }
 })
 
 export default router
