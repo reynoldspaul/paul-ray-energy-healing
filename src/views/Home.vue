@@ -6,7 +6,7 @@ import { RouterLink } from "vue-router";
 
 <template>
 
-  <div class="paul-header" style="background-image: url(/public/img/paul-meditation-1.jpg);">
+  <div class="paul-header" style="background-image: url(/img/paul-meditation-1.jpg);">
 
     <div class="container">
       <div class="row d-flex align-items-center" style="height: 600px;">
