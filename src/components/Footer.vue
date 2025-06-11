@@ -13,7 +13,7 @@
                             <RouterLink to="/approach" activeClass="active" class="nav-link px-2 text-body-secondary">
                                 Approach</RouterLink>
                         </li>
-                        <li class="nav-item"><a href="https://paulray.setmore.com/book"
+                        <li class="nav-item"><a href="https://paulray.setmore.com/"
                                 class="nav-link px-2 text-body-secondary">Book</a></li>
                         <li class="nav-item">
                             <RouterLink to="/about" activeClass="active" class="nav-link px-2 text-body-secondary">About

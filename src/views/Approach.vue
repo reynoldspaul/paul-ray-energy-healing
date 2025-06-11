@@ -25,7 +25,7 @@
                         <div class="text-uppercase fs-3">Space to feel</div>
                     </div>
                     <div class="col-12 col-md-4 text-center py-5">
-                        <i class="bi bi-feather text-primary" style="font-size: 4em;"></i>
+                        <i class="bi bi-stars text-primary" style="font-size: 4em;"></i>
                         <div class="text-uppercase fs-3">Space to breath</div>
                     </div>
                     <div class="col-12 col-md-4 text-center py-5">
@@ -102,7 +102,7 @@
 
         <div class="row my-5">
             <div class="col text-center">
-                <a href="https://paulray.setmore.com/book" class="btn btn-primary btn-lg px-5 py-3">Book A Reiki
+                <a href="https://paulray.setmore.com/" class="btn btn-primary btn-lg px-5 py-3">Book A Reiki
                     Session</a>
             </div>
         </div>

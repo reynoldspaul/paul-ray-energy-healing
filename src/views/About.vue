@@ -92,7 +92,7 @@
         </div>
         <div class="row my-5">
             <div class="col text-center">
-                <a href="https://paulray.setmore.com/book" class="btn btn-primary btn-lg px-5 py-3">Book A Reiki
+                <a href="https://paulray.setmore.com/" class="btn btn-primary btn-lg px-5 py-3">Book A Reiki
                     Session</a>
             </div>
         </div>
@@ -100,7 +100,7 @@
 
     <div class="divider-sm"></div>
 
-    <div class="paul-meditation" style="background-image: url(/public/img/paul-meditation.jpg);">
+    <div class="paul-meditation" style="background-image: url(/public/img/paul-header-1.jpg);">
         <div class="container">
             <div class="row justify-content-end align-items-end d-flex" style="height: 600px;">
                 <div class="col-6 text-end text-white mb-5">

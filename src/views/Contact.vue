@@ -8,8 +8,8 @@ import 'leaflet/dist/leaflet.css'
 const map = ref(null)
 onMounted(() => {
     // Office location (change this to your office's coordinates)
-    const officeLatitude = 51.1685489
-    const officeLongitude = 0.2486029
+    const officeLatitude = 51.1844186
+    const officeLongitude = 0.2722406
 
     // Initialize map and set view to your office location
     map.value = L.map('map', {
@@ -80,23 +80,26 @@ const sendEmail = () => {
 
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-5">
                 <div class="text-primary title ">Where You Can Find Me</div>
                 <div class="fs-5">
                     <p>
-                        <i class="bi bi-geo-alt"></i> My Reiki space address is XXXXXXXX
+                        <i class="bi bi-geo-alt"></i> My Reiki space address is:
                     </p>
-
+                    <p>
+                        Mountfield, 63 The Drive, Tonbridge, TN9 2LS
+                    </p>
+                    <p>Proceed down the driveway off of the main road and park infront of the house</p>
+                    <div class=" mt-2">
+                        <a href="https://maps.app.goo.gl/gntr1JTu6fpJh7Ln7" target="_blank"
+                            class="btn btn-outline-primary">
+                            <i class="bi bi-geo-alt"></i> View on Google Maps
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div id="map" style="height: 400px;"></div>
-                <div class="text-end mt-2">
-                    <a href="https://www.google.co.uk/maps/@51.1685489,0.2486029,14.83z?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
-                        target="_blank" class="btn btn-outline-primary">
-                        <i class="bi bi-geo-alt"></i> View on Google Maps
-                    </a>
-                </div>
             </div>
         </div>
     </div>
@@ -124,7 +127,7 @@ const sendEmail = () => {
                     <div class="mb-3">
                         <label class="form-label fw-bold">Your Email</label>
                         <input v-model="form.email" type="email" required class="form-control" />
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div id="emailHelp" class="form-text">Your email will never be shared with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-bold">Your Message</label>

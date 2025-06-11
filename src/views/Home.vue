@@ -6,15 +6,16 @@ import { RouterLink } from "vue-router";
 
 <template>
 
-  <div class="paul-header" style="background-image: url(/public/img/paul-header.jpg);">
+  <div class="paul-header" style="background-image: url(/public/img/paul-meditation-1.jpg);">
 
     <div class="container">
       <div class="row d-flex align-items-center" style="height: 600px;">
         <div class="col">
           <h1 class="text-white mb-0" style="font-size: 6rem;">Reiki</h1>
-          <div class="text-white mb-5" style="font-size: 2rem;">Energy Healing in Tunbridge <br>Wells, Kent</div>
+          <div class="text-white mb-5" style="font-size: 2rem;">Energy Healing in <br><strong>Tonbridge</strong>, Kent
+          </div>
 
-          <a href="https://paulray.setmore.com/book" class="btn btn-info btn-lg mt-5 px-5 text-white fs-3 "
+          <a href="https://paulray.setmore.com/" class="btn btn-info btn-lg mt-5 px-5 text-white fs-3 "
             style="border-width: 5px;">Book</a>
         </div>
       </div>
@@ -55,7 +56,7 @@ import { RouterLink } from "vue-router";
           <div class="text-uppercase fs-3">Space to feel</div>
         </div>
         <div class="col-12 col-md-4 text-center py-5">
-          <i class="bi bi-feather text-primary" style="font-size: 4em;"></i>
+          <i class="bi bi-stars text-primary" style="font-size: 4em;"></i>
           <div class="text-uppercase fs-3">Space to breath</div>
         </div>
         <div class="col-12 col-md-4 text-center py-5">
@@ -73,7 +74,7 @@ import { RouterLink } from "vue-router";
       </div>
       <div class="row my-5">
         <div class="col text-center">
-          <a href="https://paulray.setmore.com/book" class="btn btn-primary btn-lg px-5 py-3">Book A Reiki Session</a>
+          <a href="https://paulray.setmore.com/" class="btn btn-primary btn-lg px-5 py-3">Book A Reiki Session</a>
         </div>
       </div>
     </div>
@@ -137,7 +138,7 @@ import { RouterLink } from "vue-router";
             on or just above
             different areas of your body relating to your different <strong>energy zones</strong>. The specific
             placement of my palms
-            will never be intrusive or inappropriate, nor will there be any uncomfortable pressure.
+            will never be intrusive, nor will there be any uncomfortable pressure.
           </p>
           <p>
             The experience of Reiki is subjective, changeable, sometimes subtle, and sometimes more active. People
