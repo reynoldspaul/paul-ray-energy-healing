@@ -9,14 +9,18 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
+const app = createApp(App)
+
 // gh pages workaround for loading page
 const redirectPath = sessionStorage.getItem('redirectPath');
 if (redirectPath) {
   sessionStorage.removeItem('redirectPath');
-  window.history.replaceState(null, '', redirectPath);
+  // Wait until router is ready, then redirect
+  router.isReady().then(() => {
+    router.replace(redirectPath);
+  });
 }
 
-const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
