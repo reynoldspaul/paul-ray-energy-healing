@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Redirect to index.html and preserve the full path - gh pages work around
+      const path = window.location.pathname + window.location.search + window.location.hash;
+      sessionStorage.setItem('redirectPath', path);
+      window.location.replace('/');
+    </script>
+  </head>
+  <body>
+    <p></p>
+  </body>
+</html>
