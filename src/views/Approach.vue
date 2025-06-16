@@ -70,8 +70,8 @@
 
     <div class="section-bg-colour">
         <div class="container py-5">
-            <div class="row justify-content-between py-5">
-                <div class="col-12 col-md-5">
+            <div class="row justify-content-between py-0 py-md-5">
+                <div class="col-12 col-md-5 d-none d-md-block">
                     <img src="/public/img/universe.jpg" style="width:100%">
                 </div>
                 <div class="col-12 col-md-6">

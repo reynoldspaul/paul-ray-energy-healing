@@ -11,7 +11,7 @@ import router from './router'
 
 const app = createApp(App)
 
-// gh pages workaround for loading page
+// gh-pages workaround for loading page
 const redirectPath = sessionStorage.getItem('redirectPath');
 if (redirectPath) {
   sessionStorage.removeItem('redirectPath');
@@ -20,7 +20,6 @@ if (redirectPath) {
     router.replace(redirectPath);
   });
 }
-
 
 app.use(createPinia())
 app.use(router)

@@ -90,7 +90,7 @@ const sendEmail = () => {
                         Mountfield, 63 The Drive, Tonbridge, TN9 2LS
                     </p>
                     <p>Proceed down the driveway off of the main road and park infront of the house</p>
-                    <div class=" mt-2">
+                    <div class=" mt-2 mb-3">
                         <a href="https://maps.app.goo.gl/gntr1JTu6fpJh7Ln7" target="_blank"
                             class="btn btn-outline-primary">
                             <i class="bi bi-geo-alt"></i> View on Google Maps

@@ -50,9 +50,9 @@
 
     <div class="section-bg-colour">
         <div class="container py-5">
-            <div class="row justify-content-between py-5">
-                <div class="col-12 col-md-5">
-                    <img src="/public/img/energy.jpg" style="width:100%">
+            <div class="row justify-content-between py-0 py-md-5">
+                <div class="col-12 col-md-5 d-none d-md-block">
+                    <img src=" /public/img/energy.jpg" style="width:100%">
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="text-primary title ">Energy Healing</div>

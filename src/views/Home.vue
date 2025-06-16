@@ -125,11 +125,11 @@ import { RouterLink } from "vue-router";
 
     <div class="divider"></div>
 
-    <div class="row mt-5 justify-content-between">
+    <div class="row justify-content-between">
       <div class="col-12 col-md-3   ">
         <img src="/public/img/reiki.jpg" style="width:100%">
       </div>
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-md-8 mt-5 mt-md-0">
         <div class="text-primary title ">What happens during a treatment?</div>
         <div class="fs-5">
           <p>
