@@ -48,7 +48,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a href="/" class="nav-link active">Home</a>
+                <a href="/" class="nav-link">Home</a>
                 <a href="/approach" class="nav-link">Approach</a>
                 <a href="https://paulray.setmore.com/" class="nav-link">Book</a>
                 <a href="/about" class="nav-link">About</a>
@@ -222,7 +222,18 @@
     </footer>
     </div>
 
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const currentPath = window.location.pathname;
+        const navLinks = document.querySelectorAll('.nav-link');
 
+        navLinks.forEach(link => {
+          if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+          }
+        });
+      });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
   </body>
 </html>
